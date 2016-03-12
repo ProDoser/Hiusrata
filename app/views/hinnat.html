@@ -1,0 +1,80 @@
+<div class="row marketing">
+    <h1 class="text-center">Hinnat</h1>
+    <h3 class="text-center">Kampaamotyöt</h3>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Työ</th>
+            <th>9-12 tarjous</th>
+            <th>normali</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="kampaamo in kampaamot track by $index">
+            <td>{{kampaamo.name}}</td>
+            <td>{{kampaamo.tarjous}}€</td>
+            <td>{{kampaamo.normal}}€</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h3 class="text-center">Väri</h3>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Työ</th>
+            <th>9-12 tarjous</th>
+            <th>normali</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="vari in varit track by $index">
+            <td>{{vari.name}}</td>
+            <td>{{vari.tarjous}}€</td>
+            <td>{{vari.normal}}€</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h3 class="text-center">Hoito</h3>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Työ</th>
+            <th>9-12 tarjous</th>
+            <th>normali</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="hoito in hoitot track by $index">
+            <td>{{hoito.name}}</td>
+            <td>{{hoito.tarjous}}€</td>
+            <td>{{hoito.normal}}€</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h3 class="text-center">Parturityö</h3>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Parturityö</th>
+            <th>9-12 tarjous</th>
+            <th>normali</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="parturi in parturit track by $index">
+            <td>{{parturi.name}}</td>
+            <td>{{parturi.tarjous}}€</td>
+            <td>{{parturi.normal}}€</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
