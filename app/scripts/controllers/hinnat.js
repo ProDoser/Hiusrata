@@ -11,7 +11,7 @@ angular.module('hiusApp')
   .controller('HinnatCtrl', function ($scope) {
 
       $scope.kampaamot = [{
-          name: 'Hiustenleikkaus + pesu + föön',
+          name: 'Hiustenleikkaus +pesu +föön',
           tarjous: '32/37/42',
           normal: '35/40/45'
       }, {
@@ -23,15 +23,15 @@ angular.module('hiusApp')
           tarjous: '13',
           normal: '15'
       }, {
-          name: 'Pitkienhiusten lisä/Mallinmuutosleikkaus',
-          tarjous: '',
+          name: 'Pitkienhiusten lisä/ Mallinmuutosleikkaus',
+          tarjous: '10-15',
           normal: '10-15'
       }, {
           name: 'Hää-, rulla-, kiharakampaukset',
-          tarjous: '',
+          tarjous: 'tunti 60',
           normal: 'tunti 60'
       }, {
-          name: 'Pesu+föönaus',
+          name: 'Pesu + föönaus',
           tarjous: 'alk.25',
           normal: 'alk.30'
       }
@@ -41,24 +41,24 @@ angular.module('hiusApp')
           tarjous: 'alk.62',
           normal: 'alk.65'
       }, {
-          name: 'Lyhyidenhiusten väri/raidat+lk+föön',
+          name: 'Lyhyidenhiusten väri/ raidat+lk+föön',
           tarjous: '82',
           normal: '85'
       }, {
-          name: 'Puolipitkienhiusten väri/raidat+lk+föön',
+          name: 'Puolipitkienhiusten väri/ raidat+lk+föön',
           tarjous: '92',
           normal: '95'
       }, {
-          name: 'Pitkienhiusten väri/raidat+lk+föön',
+          name: 'Pitkienhiusten väri/ raidat+lk+föön',
           tarjous: '102',
           normal: '105'
       }, {
           name: 'Monivärilisä',
-          tarjous: '',
+          tarjous: '10',
           normal: '10'
       }, {
           name: 'Erikoispitkien/ paksujenhiusten lisä/ varin poisto',
-          tarjous: '',
+          tarjous: '10-20',
           normal: '10-20'
       }, {
           name: 'Ripset ja kulmat',
@@ -69,7 +69,7 @@ angular.module('hiusApp')
           tarjous: '15',
           normal: '18'
       }, {
-          name: 'Kulmat (väri+muotoilu)',
+          name: 'Kulmat (väri+ muotoilu)',
           tarjous: '15',
           normal: '18'
       }, {
@@ -95,23 +95,23 @@ angular.module('hiusApp')
           normal: '32'
       }, {
           name: 'väri-, vaalenuskäsittelyn yhdessä',
-          tarjous: '',
+          tarjous: '15-20',
           normal: '15-20'
       }, {
           name: 'Hoitoon leikkauslisä',
-          tarjous: '',
+          tarjous: '15-20',
           normal: '15-20'
       }];
       $scope.parturit = [{
-          name: 'Hiustenleikkaus+pesu',
+          name: 'Hiustenleikkaus+ pesu',
           tarjous: '24-27',
           normal: '27-30'
       }, {
-          name: 'Mallinmuutous/jenkkisiilileikkaus',
-          tarjous: '',
+          name: 'Mallinmuutous/ jenkkisiilileikkaus',
+          tarjous: '30',
           normal: '30'
       }, {
-          name: 'Väri+leikkaus',
+          name: 'Väri+ leikkaus',
           tarjous: 'alk.50',
           normal: 'alk.55'
       }, {

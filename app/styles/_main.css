@@ -1,14 +1,12 @@
 body {
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: wheat;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    color: #777;
 }
+
 
 .navbar {
     margin-bottom: 0px;
     border: 0px transparent;
-    font-family: "daxotbold",helvetica,Arial,sans-serif;
 }
 .navbar-default {
     background-color: #EA705B;
@@ -26,26 +24,62 @@ body > .content {
     margin-bottom: -100px;
 }
 
-table {
-    background-color: #DC5112;
+
+.table > thead > tr > th.thead {
+    font-size: large;
+    background-color: #EA705B;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    border-bottom: none;
 }
 
 .carousel-caption {
     color: #EA705B;
-    text-align: right;
     font-size: large;
-    text-shadow: 0 2px 2px rgba(191, 64, 64, 0.73);
+}
+
+.carousel-control {
+    color: #EA705B;
+    text-align: center;
+    opacity: .5;
+    width: 12%;
+}
+.carousel-control:hover{
+    color: #DC5112;
+}
+
+.carousel-control.right {
+    background-image: linear-gradient(to right, rgba(255,255,255, .0001) 0%, rgb(220, 81, 18) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+.carousel-control.left {
+    background-image: linear-gradient(to left, rgba(255,255,255, .0001) 0%, rgb(220, 81, 18) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+.carousel-indicators .active {
+    background-color: #EA705B;
+}
+.carousel-indicators li {
+    border: 1px solid #EA705B;
 }
 
 .footer {
 
     clear: both;
     position: relative;
-    color: #000000;
+    color: #777;
     background-color: #EA705B;
 }
+a {
+    color: #777777;
+}
+a:hover, a:focus {
+    color: #777777;
+    text-decoration: none;
+}
 .footer, .content:after {
-    height: 100px;
+    min-height: 100px;
 }
 .content:after {
     content: "";
