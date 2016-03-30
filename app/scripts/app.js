@@ -35,6 +35,11 @@ angular
         controller: 'YhteystiedotCtrl',
         controllerAs: 'yhteystiedot'
       })
+      .when('/galleria', {
+        templateUrl: 'views/galleria.html',
+        controller: 'GalleriaCtrl',
+        controllerAs: 'galleria'
+      })
       .otherwise({
         redirectTo: '/'
       });

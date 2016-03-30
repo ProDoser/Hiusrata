@@ -26,23 +26,23 @@
         <div class="container">
           <div class="navbar-header">
 
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+            <button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#/" data-toggle="collapse" data-target="#js-navbar-collapse">HIUSRATA</a>
+            <a class="navbar-brand" href="#/" ng-click="isCollapsed = true">HIUSRATA</a>
           </div>
 
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+          <div class="navbar-collapse" ng-class="{collapse: isCollapsed}" id="js-navbar-collapse">
 
             <ul class="nav navbar-nav">
-              <li><a ng-href="#/hinnat" data-toggle="collapse" data-target="#js-navbar-collapse">Hinnasto</a></li>
-              <li><a ng-href="#/yhteystiedot" data-toggle="collapse" data-target="#js-navbar-collapse">Yhteystiedot</a></li>
-              <li><a ng-href="#/galleria" data-toggle="collapse" data-target="#js-navbar-collapse">Galleria</a></li>
-              <li><a ng-href="#/tarjoukset" data-toggle="collapse" data-target="#js-navbar-collapse">Tarjoukset</a></li>
+              <li><a ng-href="#/hinnat" ng-click="isCollapsed = !isCollapsed">Hinnasto</a></li>
+              <li><a ng-href="#/yhteystiedot" ng-click="isCollapsed = !isCollapsed"">Yhteystiedot</a></li>
+              <li><a ng-href="#/galleria" ng-click="isCollapsed = !isCollapsed">Galleria</a></li>
+              <li><a ng-href="#/tarjoukset" ng-click="isCollapsed = !isCollapsed">Tarjoukset</a></li>
             </ul>
           </div>
         </div>
@@ -100,6 +100,7 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/hinnat.js"></script>
         <script src="scripts/controllers/yhteystiedot.js"></script>
+        <script src="scripts/controllers/galleria.js"></script>
         <!-- endbuild -->
 </body>
 </html>
