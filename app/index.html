@@ -33,15 +33,16 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#/">HIUSRATA</a>
+            <a class="navbar-brand" href="#/" data-toggle="collapse" data-target="#js-navbar-collapse">HIUSRATA</a>
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Kotisivu</a></li>
-              <li><a ng-href="#/hinnat">Hinnat</a></li>
-              <li><a ng-href="#/yhteystiedot">Yhteystiedot</a></li>
+              <li><a ng-href="#/hinnat" data-toggle="collapse" data-target="#js-navbar-collapse">Hinnasto</a></li>
+              <li><a ng-href="#/yhteystiedot" data-toggle="collapse" data-target="#js-navbar-collapse">Yhteystiedot</a></li>
+              <li><a ng-href="#/galleria" data-toggle="collapse" data-target="#js-navbar-collapse">Galleria</a></li>
+              <li><a ng-href="#/tarjoukset" data-toggle="collapse" data-target="#js-navbar-collapse">Tarjoukset</a></li>
             </ul>
           </div>
         </div>
