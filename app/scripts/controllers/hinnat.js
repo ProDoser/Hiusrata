@@ -19,11 +19,11 @@ angular.module('hiusApp')
           tarjous: '25',
           normal: '28'
       }, {
-          name: 'Otsatukanleikkaus',
+          name: 'Otsatukan leikkaus',
           tarjous: '13',
           normal: '15'
       }, {
-          name: 'Pitkienhiusten lisä/ Mallinmuutosleikkaus',
+          name: 'Pitkien hiusten lisä/ Mallinmuutosleikkaus',
           tarjous: '10-15',
           normal: '10-15'
       }, {
@@ -41,15 +41,15 @@ angular.module('hiusApp')
           tarjous: 'alk.62',
           normal: 'alk.65'
       }, {
-          name: 'Lyhyidenhiusten väri/ raidat+lk+föön',
+          name: 'Lyhyiden hiusten väri/ raidat+lk+föön',
           tarjous: '82',
           normal: '85'
       }, {
-          name: 'Puolipitkienhiusten väri/ raidat+lk+föön',
+          name: 'Puolipitkien hiusten väri/ raidat+lk+föön',
           tarjous: '92',
           normal: '95'
       }, {
-          name: 'Pitkienhiusten väri/ raidat+lk+föön',
+          name: 'Pitkien hiusten väri/ raidat+lk+föön',
           tarjous: '102',
           normal: '105'
       }, {
@@ -57,7 +57,7 @@ angular.module('hiusApp')
           tarjous: '10',
           normal: '10'
       }, {
-          name: 'Erikoispitkien/ paksujenhiusten lisä/ varin poisto',
+          name: 'Erikoispitkien/ paksujen hiusten lisä/ varin poisto',
           tarjous: '10-20',
           normal: '10-20'
       }, {
@@ -94,7 +94,7 @@ angular.module('hiusApp')
           tarjous: '27',
           normal: '32'
       }, {
-          name: 'väri-, vaalenuskäsittelyn yhdessä',
+          name: 'väri-, vaalennuskäsittelyn yhdessä',
           tarjous: '15-20',
           normal: '15-20'
       }, {
@@ -107,7 +107,7 @@ angular.module('hiusApp')
           tarjous: '24-27',
           normal: '27-30'
       }, {
-          name: 'Mallinmuutous/ jenkkisiilileikkaus',
+          name: 'Mallinmuutos/ jenkkisiilileikkaus',
           tarjous: '30',
           normal: '30'
       }, {
@@ -119,7 +119,7 @@ angular.module('hiusApp')
           tarjous: '15',
           normal: '20'
       }, {
-          name: 'Lastenhiusten leikkaus alle 7v.',
+          name: 'Lasten hiusten leikkaus alle 7v.',
           tarjous: '15',
           normal: '20'
       }];

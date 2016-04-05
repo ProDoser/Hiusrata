@@ -40,6 +40,11 @@ angular
         controller: 'GalleriaCtrl',
         controllerAs: 'galleria'
       })
+      .when('/tarjoukset', {
+        templateUrl: 'views/tarjoukset.html',
+        controller: 'TarjouksetCtrl',
+        controllerAs: 'tarjoukset'
+      })
       .otherwise({
         redirectTo: '/'
       });
