@@ -6,7 +6,7 @@
 }
 
 body {
-  padding: 0;
+  padding: 45px 0 0 0;
 }
 
 
@@ -158,6 +158,9 @@ img.ng-thumb {
   left: 10px;
 }
 
+.flag{
+  width: 30px;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
