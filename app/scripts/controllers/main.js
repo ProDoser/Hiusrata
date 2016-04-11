@@ -15,15 +15,15 @@ angular.module('hiusApp')
       $scope.active = 0;
       $scope.slides = [{
           src: 'images/img1.jpg',
-          text: 'Tarjous klo 9-12',
+          text: '',
           id: 0
       }, {
           src: 'images/img2.jpg',
-          text: 'Ilman ajanvarausta',
+          text: '',
           id: 1
       }, {
           src: 'images/img3.jpg',
-          text: 'alk 20€',
+          text: '',
           id: 2
       }
       ];
