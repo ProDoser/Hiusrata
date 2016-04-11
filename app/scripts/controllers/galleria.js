@@ -9,21 +9,24 @@
  */
 angular.module('hiusApp')
   .controller('GalleriaCtrl', function ($scope) {
-      $scope.myInterval = 5000;
-      $scope.noWrapSlides = false;
-      $scope.active = 0;
-      $scope.photos = [{
-          src: 'images/photo1.jpg',
-          id: 0
+      $scope.gallery = [{
+          thumb: 'images/gallery1_thumb.jpg',
+          img: 'images/gallery1.jpg'
       }, {
-          src: 'images/photo3.jpg',
-          id: 1
+          thumb: 'images/gallery2_thumb.jpg',
+          img: 'images/gallery2.jpg'
       }, {
-          src: 'images/photo2.jpg',
-          id: 2
+          thumb: 'images/gallery3_thumb.jpg',
+          img: 'images/gallery3.jpg'
       }, {
-          src: 'images/photo4.jpg',
-          id: 3
+          thumb: 'images/gallery4_thumb.jpg',
+          img: 'images/gallery4.jpg'
+      }, {
+          thumb: 'images/gallery5_thumb.jpg',
+          img: 'images/gallery5.jpg'
+      }, {
+          thumb: 'images/gallery6_thumb.jpg',
+          img: 'images/gallery6.jpg'
       }
       ];
   });

@@ -9,6 +9,7 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/ngGallery/src/css/ngGallery.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -21,9 +22,9 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="header">
+    <div class="header row">
       <div class="navbar navbar-default" role="navigation">
-        <div class="container">
+
           <div class="navbar-header">
 
             <button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
@@ -40,12 +41,12 @@
 
             <ul class="nav navbar-nav">
               <li><a ng-href="#/hinnat" ng-click="isCollapsed = !isCollapsed">Hinnasto</a></li>
-              <li><a ng-href="#/yhteystiedot" ng-click="isCollapsed = !isCollapsed"">Yhteystiedot</a></li>
+              <li><a ng-href="#/yhteystiedot" ng-click="isCollapsed = !isCollapsed">Yhteystiedot</a></li>
               <li><a ng-href="#/galleria" ng-click="isCollapsed = !isCollapsed">Galleria</a></li>
               <li><a ng-href="#/tarjoukset" ng-click="isCollapsed = !isCollapsed">Tarjoukset</a></li>
             </ul>
           </div>
-        </div>
+
       </div>
     </div>
 
@@ -92,6 +93,7 @@
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/ngGallery/src/js/ngGallery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

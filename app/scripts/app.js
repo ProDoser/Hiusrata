@@ -16,7 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-      'ui.bootstrap'
+      'ui.bootstrap',
+      'jkuri.gallery'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -50,13 +51,13 @@ angular
       });
   });
 
-$(".nav a").on("click", function(){
+/*$(".nav a").on("click", function(){
     $(".nav").find(".active").removeClass("active");
     $(this).parent().addClass("active");
 });
 $(".navbar-brand").on("click", function(){
     $(".nav").find(".active").removeClass("active");
-});
+});*/
 
 
 

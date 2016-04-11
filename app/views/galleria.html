@@ -1,9 +1,4 @@
+<h2 class="text-center">Galleria</h2>
 <div>
-    <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-        <uib-slide ng-repeat="photo in photos track by photo.id" index="photo.id">
-            <img ng-src="{{photo.src}}" style="margin:auto; max-height:575px;">
-            <div class="carousel-caption pull-left" >
-            </div>
-        </uib-slide>
-    </uib-carousel>
+    <ng-gallery images="gallery"></ng-gallery>
 </div>
