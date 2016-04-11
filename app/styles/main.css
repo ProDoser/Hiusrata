@@ -87,6 +87,10 @@ body > .content {
 .carousel-indicators li {
   border: 1px solid #FF5E00;
 }
+/*FB page padding*/
+.fb-page{
+  padding-bottom: 30px;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .footer {
