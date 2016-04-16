@@ -6,13 +6,14 @@
 }
 
 body {
-  padding: 45px 0 0 0;
+  padding: 40px 0 0 0;
+  color: black;
 }
 
 
 /*Navigation*/
 .navbar {
-  color: #333;
+  color: black;
   margin-bottom: 0px;
   border: 0px transparent;
 }
@@ -22,14 +23,14 @@ body {
 }
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus{
-  color: #333;
+  color: black;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #333;
+  color: black;
   background-color: #DC5112;
 }
 .navbar-default .navbar-toggle {
-  border-color: #333;
+  border-color: black;
   background-color: #FF5E00;
 }
 .navbar-default .navbar-toggle .icon-bar {
@@ -38,6 +39,7 @@ body {
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
   background-color: #FF5E00;
 }
+
 
 /*Content 100% height*/
 html, body {
@@ -99,7 +101,7 @@ body > .content {
 }
 /*footer design*/
 .footer {
-  color: #333;
+  color: black;
   clear: both;
   position: relative;
   background-color: #FF5E00;
@@ -107,7 +109,7 @@ body > .content {
 
 /*links*/
 a {
-  color: #333;
+  color: black;
 }
 
 a:hover, a:focus {
@@ -187,4 +189,17 @@ img.ng-thumb {
   .jumbotron {
     border-bottom: 0;
   }
+
+}
+@media screen and (max-width: 768px){
+  .navbar-nav > li > a {
+    border-top: 1px solid;
+    font-size: large;
+  }
+  .navbar-default .navbar-collapse{
+    border-color: #FF5E00;
+    font-size: large;
+   -webkit-box-shadow: none;
+    box-shadow: none;
+}
 }
